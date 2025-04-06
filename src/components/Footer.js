@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 //IMAGES
-import iconFb from "../assets/social-media/facebook.png";
+// import iconFb from "../assets/social-media/facebook.png";
 import iconGm from "../assets/social-media/envelope.png";
 import iconZl from "../assets/social-media/zalo-icon.png";
 import iconCopyRight from "../assets/social-media/copyright.png";
@@ -80,7 +80,7 @@ function Footer() {
           />
         </svg>
       ),
-      title: "0765.38.4567 - 0392.804.456",
+      title: "086.886.3685",
     },
     {
       id: 3,
@@ -130,11 +130,11 @@ function Footer() {
   ];
 
   const socialMedia = [
-    {
-      icon: iconFb,
-      url: "https://www.facebook.com/61567526177876",
-      context: "Facebook",
-    },
+    // {
+    //   icon: iconFb,
+    //   url: "https://www.facebook.com/61567526177876",
+    //   context: "Facebook",
+    // },
     {
       icon: iconGm,
       url: "mailto: quanganhprinting@gmail.com?subject=Feedback&body=Message",

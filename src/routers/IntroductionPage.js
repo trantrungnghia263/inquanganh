@@ -82,7 +82,7 @@ function IntroductionPage() {
                     Đôi nét về In Quang Anh
                   </h6>
                   <p className="introduction-page__paragraph text-base text-gray-500 pb-2">
-                    Được thành lập năm 2016, In Quang Anh là một trong những cây
+                    Được thành lập năm 2019, In Quang Anh là một trong những cây
                     “đại thụ” trong lĩnh vực in ấn. Trải qua gần 10 năm hoạt
                     động In Quang Anh đã khẳng định vị thế và sự chuyên nghiệp
                     của mình trong lĩnh vực in ấn tại Hà Nội. Minh chứng quan

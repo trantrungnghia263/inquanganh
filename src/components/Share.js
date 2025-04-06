@@ -8,7 +8,7 @@ function Share() {
           className="sharing__item sharing__item--call"
           style={{ "--color": "#ba363d" }}
         >
-          <a className="df-center" href="tel:0765384567" title="Phone">
+          <a className="df-center" href="tel:0868863685" title="Phone">
             <div className="sharing__item-icon df-center">
               <svg
                 width="44"
@@ -171,7 +171,7 @@ function Share() {
             <p>Gửi email cho chúng tôi</p>
           </div>
         </div>
-        <div
+        {/* <div
           className="sharing__item sharing__item--mess"
           style={{ "--color": "#0068ff80" }}
         >
@@ -179,7 +179,6 @@ function Share() {
             className="df-center"
             target="blank"
             href="https://www.messenger.com/t/61567526177876/"
-            // href="https://www.facebook.com/61567526177876"
             title="Messenger"
           >
             <div className="sharing__item-icon df-center">
@@ -200,7 +199,7 @@ function Share() {
           <div className="tooltip-text" style={{ "--width": "250px" }}>
             <p>Chat với chúng tôi qua Fanpage</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

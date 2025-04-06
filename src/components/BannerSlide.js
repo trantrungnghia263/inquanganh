@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
 
 // IMAGES
-import banner1 from "../assets/banner/1.png";
-import banner2 from "../assets/banner/3.png";
-import banner3 from "../assets/banner/2.png";
+import banner1 from "../assets/banner/banner8.jpg";
+import banner2 from "../assets/banner/banner10.jpg";
+import banner3 from "../assets/banner/banner6.jpg";
 import banner1_mb from "../assets/banner/1mb.png";
 import banner2_mb from "../assets/banner/2mb.png";
 import banner3_mb from "../assets/banner/3mb.png";
