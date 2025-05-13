@@ -168,7 +168,7 @@ function PolicyPage() {
         2.Phạm vi sử dụng thông tin
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      Thông tin cá nhân thu thập được sẽ chỉ được <span class="text-red-600 italic">inanhoanggia.vn</span> sử dụng trong nội bộ công ty và cho một hoặc tất cả các mục đích sau đây:
+      Thông tin cá nhân thu thập được sẽ chỉ được <span class="text-red-600 italic">inquanganh.vn</span> sử dụng trong nội bộ công ty và cho một hoặc tất cả các mục đích sau đây:
       </p>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
       – Hỗ trợ khách hàng
@@ -189,7 +189,7 @@ function PolicyPage() {
         3.Thời gian lưu trữ thông tin
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      Đối với thông tin cá nhân, <span class="text-red-600 italic">inanhoanggia.vn</span> chỉ xóa đi dữ liệu này nếu khách hàng có yêu cầu, khách hàng yêu cầu gửi mail về <span class="text-red-600 italic">quanganhprinting@gmail.com</span>
+      Đối với thông tin cá nhân, <span class="text-red-600 italic">inquanganh.vn</span> chỉ xóa đi dữ liệu này nếu khách hàng có yêu cầu, khách hàng yêu cầu gửi mail về <span class="text-red-600 italic">quanganhprinting@gmail.com</span>
       </p>
       <h6 class="policy-page__title text-base text-red-700 uppercase py-3">
         4.Những người hoặc tổ chức có thể được tiếp cận với thông tin cá nhân
@@ -216,7 +216,7 @@ function PolicyPage() {
       Điện thoại: 0765.28.4567
       </p>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      Website: <span class="text-red-600 italic">inanhoanggia.vn</span>
+      Website: <span class="text-red-600 italic">inquanganh.vn</span>
       </p>
       <p class="policy-page__paragraph text-base text-gray-500">
       Email: <span class="text-red-600 italic">quanganhprinting@gmail.com</span>
@@ -225,16 +225,16 @@ function PolicyPage() {
        6.Phương tiện và công cụ để người dùng tiếp cận và chỉnh sửa dữ liệu cá nhân của mình
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      <span class="text-red-600 italic">inanhoanggia.vn</span> không thu thập thông tin khách hàng qua trang web, thông tin cá nhân khách hàng được thực hiện thu thập qua email liên hệ đặt mua sản phẩm, dịch vụ gửi về hộp mail của chúng tôi: Hai.inbacviet@gmail.com hoặc số điện thoại liên hệ đặt mua sản phẩm gọi về 094.6666.395
+      <span class="text-red-600 italic">inquanganh.vn</span> không thu thập thông tin khách hàng qua trang web, thông tin cá nhân khách hàng được thực hiện thu thập qua email liên hệ đặt mua sản phẩm, dịch vụ gửi về hộp mail của chúng tôi: Hai.inbacviet@gmail.com hoặc số điện thoại liên hệ đặt mua sản phẩm gọi về 094.6666.395
       </p>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      Bạn có thể liên hệ địa chỉ email cùng số điện thoại trên để yêu cầu <span class="text-red-600 italic">inanhoanggia.vn</span> chỉnh sửa dữ liệu cá nhân của mình.
+      Bạn có thể liên hệ địa chỉ email cùng số điện thoại trên để yêu cầu <span class="text-red-600 italic">inquanganh.vn</span> chỉnh sửa dữ liệu cá nhân của mình.
       </p>
       <h6 class="policy-page__title text-base text-red-700 uppercase py-3">
        7.Cơ chế tiếp nhận và giải quyết khiếu nại của người tiêu dùng liên quan đến việc thông tin cá nhân bị sử dụng sai mục đích hoặc phạm vi đã thông báo
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      ại <span class="text-red-600 italic">inanhoanggia.vn</span> , việc bảo vệ thông tin cá nhân của bạn là rất quan trọng, bạn được đảm bảo rằng thông tin cung cấp cho chúng tôi sẽ được bảo mật, <span class="text-red-600 italic">inanhoanggia.vn</span> cam kết không chia sẻ, bán hoặc cho thuê thông tin cá nhân của bạn cho bất kỳ người nào khác. <span class="text-red-600 italic">inanhoanggia.vn</span> cam kết chỉ sử dụng các thông tin của bạn vào các trường hợp sau:
+      ại <span class="text-red-600 italic">inquanganh.vn</span> , việc bảo vệ thông tin cá nhân của bạn là rất quan trọng, bạn được đảm bảo rằng thông tin cung cấp cho chúng tôi sẽ được bảo mật, <span class="text-red-600 italic">inquanganh.vn</span> cam kết không chia sẻ, bán hoặc cho thuê thông tin cá nhân của bạn cho bất kỳ người nào khác. <span class="text-red-600 italic">inquanganh.vn</span> cam kết chỉ sử dụng các thông tin của bạn vào các trường hợp sau:
       </p>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
       – Nâng cao chất lượng dịch vụ dành cho khách hàng
@@ -246,7 +246,7 @@ function PolicyPage() {
       – Khi cơ quan pháp luật có yêu cầu.
       </p>
       <p class="policy-page__paragraph text-base text-gray-500 pb-4">
-      <span class="text-red-600 italic">inanhoanggia.vn</span> hiểu rằng quyền lợi của bạn trong việc bảo vệ thông tin cá nhân cũng chính là trách nhiệm của chúng tôi nên trong bất kỳ trường hợp có thắc mắc, góp ý nào liên quan đến chính sách bảo mật của <span class="text-red-600 italic">inanhoanggia.vn</span> , và liên quan đến việc thông tin cá nhân bị sử dụng sai mục đích hoặc phạm vi đã thông báo vui lòng liên hệ qua số hotline 0756.38.4567 hoặc email: <span class="text-red-600 italic">quanganhprinting@gmail.com</span>
+      <span class="text-red-600 italic">inquanganh.vn</span> hiểu rằng quyền lợi của bạn trong việc bảo vệ thông tin cá nhân cũng chính là trách nhiệm của chúng tôi nên trong bất kỳ trường hợp có thắc mắc, góp ý nào liên quan đến chính sách bảo mật của <span class="text-red-600 italic">inquanganh.vn</span> , và liên quan đến việc thông tin cá nhân bị sử dụng sai mục đích hoặc phạm vi đã thông báo vui lòng liên hệ qua số hotline 0756.38.4567 hoặc email: <span class="text-red-600 italic">quanganhprinting@gmail.com</span>
       </p>
     </div>`,
       },

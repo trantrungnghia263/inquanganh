@@ -6,7 +6,7 @@ import Nav from "./Nav";
 import MenuHamburger from "./MenuHamburger";
 
 // IMAGE
-import logo from "../assets/logo/logo.png";
+import logo from "../assets/logo/Logo QA-01.png";
 
 function Header({ onSearch }) {
   const [isOpen, setIsOpen] = useState(false);

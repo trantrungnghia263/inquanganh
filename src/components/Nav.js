@@ -16,15 +16,66 @@ function Nav() {
       title: "Danh mục in",
       link: "/danh-muc-in",
       sub_menu: [
-        { title: "In bạt hiflex", link: "/danh-muc-in/in-bat-hiflex" },
-        { title: "In băng rôn", link: "/danh-muc-in/in-bang-ron" },
-        { title: "In decal ô tô", link: "/danh-muc-in/in-decal-o-to" },
-        { title: "In decal PP", link: "/danh-muc-in/in-decal-pp" },
-        { title: "In backlit", link: "/danh-muc-in/in-backlit" },
-        { title: "In lụa canvas", link: "/danh-muc-in/in-lua-canvas" },
-        { title: "In hastag cầm tay", link: "/danh-muc-in/in-hastag-cam-tay" },
-        { title: "In standee", link: "/danh-muc-in/in-standee" },
-        { title: "In backdrop", link: "/danh-muc-in/in-backdrop" },
+        {
+          title: "In tem nhãn tại Hà Nội",
+          link: "/danh-muc-in/in-tem-nhan-tai-ha-noi",
+        },
+        {
+          title: "In voucher tại Hà Nội",
+          link: "/danh-muc-in/in-voucher-tai-ha-noi",
+        },
+        {
+          title: "In phong bì tại Hà Nội",
+          link: "/danh-muc-in/in-phong-bi-tai-ha-noi",
+        },
+        {
+          title: "In giấy mời tại Hà Nội",
+          link: "/danh-muc-in/in-giay-moi-tai-ha-noi",
+        },
+        {
+          title: "In catalog tại Hà Nội",
+          link: "/danh-muc-in/in-catalog-tai-ha-noi",
+        },
+        {
+          title: "In cardvisit tại Hà Nội",
+          link: "/danh-muc-in/in-cardvisit-tai-ha-noi",
+        },
+        {
+          title: "In bạt hiflex",
+          link: "/danh-muc-in/in-bat-hiflex-tai-ha-noi",
+        },
+        {
+          title: "In băng rôn",
+          link: "/danh-muc-in/in-bang-ron-tai-ha-noi",
+        },
+        {
+          title: "In decal ô tô",
+          link: "/danh-muc-in/in-decal-o-to-tai-ha-noi",
+        },
+        {
+          title: "In decal PP",
+          link: "/danh-muc-in/in-decal-pp-tai-ha-noi",
+        },
+        {
+          title: "In backlit",
+          link: "/danh-muc-in/in-backlit-tai-ha-noi",
+        },
+        {
+          title: "In lụa canvas",
+          link: "/danh-muc-in/in-lua-canvas-tai-ha-noi",
+        },
+        {
+          title: "In hastag cầm tay",
+          link: "/danh-muc-in/in-hastag-cam-tay-tai-ha-noi",
+        },
+        {
+          title: "In standee",
+          link: "/danh-muc-in/in-standee-tai-ha-noi",
+        },
+        {
+          title: "In backdrop",
+          link: "/danh-muc-in/in-backdrop-tai-ha-noi",
+        },
       ],
     },
     {
@@ -78,7 +129,7 @@ function Nav() {
 
             {/* Sub menu được tách riêng */}
             {item.sub_menu && (
-              <ul className="nav__sub-menu w-full absolute top-full left-0 z-10 opacity-0 translate-y-10 pointer-events-none transition duration-300 group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto">
+              <ul className="nav__sub-menu w-[550px] bg-red-700 absolute top-full left-0 z-10 opacity-0 translate-y-10 pointer-events-none transition duration-300 group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto  grid grid-cols-2">
                 {item.sub_menu.map((sub, subIndex) => (
                   <li
                     className={`nav__item transition duration-150 bg-red-700 hover:bg-red-800 ${

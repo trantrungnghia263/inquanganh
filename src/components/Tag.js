@@ -4,32 +4,32 @@ import { Link } from "react-router-dom";
 function Tag() {
   const tags = [
     {
-      title: "In decal PP,",
-      link: "/danh-muc-in/in-decal-pp",
+      title: "In decal PP tại Hà Nội,",
+      link: "/danh-muc-in/in-decal-pp-tai-ha-noi",
     },
     {
-      title: "In lụa - canavs",
-      link: "/danh-muc-in/in-lua-canvas",
+      title: "In lụa - canavs tại Hà Nội,",
+      link: "/danh-muc-in/in-lua-canvas-tai-ha-noi",
     },
     {
-      title: "In băng rôn,",
-      link: "/danh-muc-in/in-bang-ron",
+      title: "In băng rôn tại Hà Nội,",
+      link: "/danh-muc-in/in-bang-ron-tai-ha-noi",
     },
     {
-      title: "In decal ôtô,",
-      link: "/danh-muc-in/in-decal-o-to",
+      title: "In decal ôtô tại Hà Nội,",
+      link: "/danh-muc-in/in-decal-o-to-tai-ha-noi",
     },
     {
-      title: "In backlit,",
-      link: "/danh-muc-in/in-backlit",
+      title: "In backlit tại Hà Nội,",
+      link: "/danh-muc-in/in-backlit-tai-ha-noi",
     },
     {
-      title: "In bạt hifex",
-      link: "/danh-muc-in/in-bat-hiflex",
+      title: "In bạt hifex tại Hà Nội,",
+      link: "/danh-muc-in/in-bat-hiflex-tai-ha-noi",
     },
   ];
 
-  const currentUrl = "https://inanhoanggia.vn";
+  const currentUrl = "https://inquanganh.vn";
 
   const socials = [
     {
@@ -155,7 +155,7 @@ function Tag() {
         <h4 className="tag__tag-title text-lg text-red-700 uppercase">
           Danh mục liên quan
         </h4>
-        <ul className="tag__tag-list py-2 flex flex-wrap items-start lg:flex-nowrap lg:items-center gap-2">
+        <ul className="tag__tag-list py-2 flex flex-wrap items-start lg:items-center gap-2">
           <li>
             <div className="text-base text-gray-700">Tags:</div>
           </li>

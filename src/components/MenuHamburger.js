@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 // IMAGE
-import logo from "../assets/logo/logo.png";
+import logo from "../assets/logo/Logo QA-01.png";
 
 function MenuHamburger({ isOpen, setIsOpen }) {
   const location = useLocation();
@@ -15,26 +15,64 @@ function MenuHamburger({ isOpen, setIsOpen }) {
       title: "Dịch vụ in",
       link: "/danh-muc-in",
       sub_menu: [
-        { sub_title: "In bạt hilex", sub_link: "/danh-muc-in/in-bat-hiflex" },
-        { sub_title: "In decal ôtô", sub_link: "/danh-muc-in/in-decal-o-to" },
-        { sub_title: "In decal pp", sub_link: "/danh-muc-in/in-decal-pp" },
         {
-          sub_title: "In lụa - canvas",
-          sub_link: "/danh-muc-in/in-lua-canvas",
-        },
-        { sub_title: "In backlit", sub_link: "/danh-muc-in/in-backlit" },
-        { sub_title: "In băng rôn", sub_link: "/danh-muc-in/in-bang-ron" },
-        {
-          sub_title: "In hastag cầm tay",
-          sub_link: "/danh-muc-in/in-hastag-cam-tay",
+          sub_title: "In tem nhãn tại Hà Nội",
+          sub_link: "/danh-muc-in/in-tem-nhan-tai-ha-noi",
         },
         {
-          sub_title: "In standee",
-          sub_link: "/danh-muc-in/in-standee",
+          sub_title: "In voucher tại Hà Nội",
+          sub_link: "/danh-muc-in/in-voucher-tai-ha-noi",
+        },
+        {
+          sub_title: "In phong bì tại Hà Nội",
+          sub_link: "/danh-muc-in/in-phong-bi-tai-ha-noi",
+        },
+        {
+          sub_title: "In giấy mời tại Hà Nội",
+          sub_link: "/danh-muc-in/in-giay-moi-tai-ha-noi",
+        },
+        {
+          sub_title: "In catalog tại Hà Nội",
+          sub_link: "/danh-muc-in/in-catalog-tai-ha-noi",
+        },
+        {
+          sub_title: "In cardvisit tại Hà Nội",
+          sub_link: "/danh-muc-in/in-cardvisit-tai-ha-noi",
+        },
+        {
+          sub_title: "In bạt hilex tại Hà Nội",
+          sub_link: "/danh-muc-in/in-bat-hiflex-tai-ha-noi",
+        },
+        {
+          sub_title: "In decal ôtô tại Hà Nội",
+          sub_link: "/danh-muc-in/in-decal-o-to-tai-ha-noi",
+        },
+        {
+          sub_title: "In decal pp tại Hà Nội",
+          sub_link: "/danh-muc-in/in-decal-pp-tai-ha-noi",
+        },
+        {
+          sub_title: "In lụa - canvas tại Hà Nội",
+          sub_link: "/danh-muc-in/in-lua-canvas-tai-ha-noi",
+        },
+        {
+          sub_title: "In backlit tại Hà Nội",
+          sub_link: "/danh-muc-in/in-backlit-tai-ha-noi",
+        },
+        {
+          sub_title: "In băng rôn tại Hà Nội",
+          sub_link: "/danh-muc-in/in-bang-ron-tai-ha-noi",
+        },
+        {
+          sub_title: "In hastag cầm tay tại Hà Nội",
+          sub_link: "/danh-muc-in/in-hastag-cam-tay-tai-ha-noi",
+        },
+        {
+          sub_title: "In standee tại Hà Nội",
+          sub_link: "/danh-muc-in/in-standee-tai-ha-noi",
         },
       ],
     },
-    // { title: "Báo giá", link: "/bao-gia" },
     { title: "Tin tức", link: "/tin-tuc" },
     { title: "Liên hệ", link: "/lien-he" },
   ];
@@ -138,7 +176,7 @@ function MenuHamburger({ isOpen, setIsOpen }) {
                 {/* Submenu */}
                 {item.sub_menu && (
                   <ul
-                    className={`submenu pl-3 transition-all duration-500 ease-in-out overflow-hidden ${
+                    className={`submenu pl-3 transition-all duration-500 ease-in-out overflow-y-auto max-h-[300px] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300 ${
                       activeIndex === index ? "max-h-screen" : "max-h-0"
                     }`}
                   >

@@ -148,13 +148,34 @@ function Footer() {
   ];
 
   const categories = [
-    { title: "In bạt Hiflex", link: "/danh-muc-in/in-bat-hiflex" },
-    { title: "In lụa - canvas", link: "/danh-muc-in/in-lua-canvas" },
-    { title: "In decal pp", link: "/danh-muc-in/in-decal-pp" },
-    { title: "In decal ô tô", link: "/danh-muc-in/in-decal-o-to" },
-    { title: "In backlit", link: "/danh-muc-in/in-backlit" },
-    { title: "In backdrop", link: "/danh-muc-in/in-backdrop" },
-    { title: "In băng rôn", link: "/danh-muc-in/in-bang-ron" },
+    {
+      title: "In bạt Hiflex tại Hà Nội",
+      link: "/danh-muc-in/in-bat-hiflex-tai-ha-noi",
+    },
+    {
+      title: "In lụa - canvas tại Hà Nội",
+      link: "/danh-muc-in/in-lua-canvas-tai-ha-noi",
+    },
+    {
+      title: "In decal pp tại Hà Nội",
+      link: "/danh-muc-in/in-decal-pp-tai-ha-noi",
+    },
+    {
+      title: "In decal ô tô tại Hà Nội",
+      link: "/danh-muc-in/in-decal-o-to-tai-ha-noi",
+    },
+    {
+      title: "In backlit tại Hà Nội",
+      link: "/danh-muc-in/in-backlit-tai-ha-noi",
+    },
+    {
+      title: "In backdrop tại Hà Nội",
+      link: "/danh-muc-in/in-backdrop-tai-ha-noi",
+    },
+    {
+      title: "In băng rôn tại Hà Nội",
+      link: "/danh-muc-in/in-bang-ron-tai-ha-noi",
+    },
   ];
 
   const policies = [

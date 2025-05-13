@@ -17,7 +17,6 @@ import BlogPage from "../routers/BlogPage";
 import BlogDetail from "../routers/BlogDetail";
 import IntroductionPage from "../routers/IntroductionPage";
 import Contact from "../routers/Contact";
-// import QuotationPage from "../routers/QuotationPage";
 import PolicyPage from "../routers/PolicyPage";
 import SearchResultsPage from "../routers/SearchResultsPage";
 
