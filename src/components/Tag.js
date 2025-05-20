@@ -16,10 +16,6 @@ function Tag() {
       link: "/danh-muc-in/in-bang-ron-tai-ha-noi",
     },
     {
-      title: "In decal ôtô tại Hà Nội,",
-      link: "/danh-muc-in/in-decal-o-to-tai-ha-noi",
-    },
-    {
       title: "In backlit tại Hà Nội,",
       link: "/danh-muc-in/in-backlit-tai-ha-noi",
     },

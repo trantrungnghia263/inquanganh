@@ -27,12 +27,6 @@ const categories = [
     title: "In Backlit",
   },
   {
-    id: 3,
-    imageUrl:
-      "https://dichvuinbat.namdinhweb.com/wp-content/uploads/2017/10/A5-27.jpg",
-    title: "In Decal ô tô",
-  },
-  {
     id: 4,
     imageUrl:
       "https://inangiadat.com/public/thumbs/829x829x1/100_66-ipMtm3CavN.webp",

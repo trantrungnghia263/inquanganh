@@ -12,19 +12,16 @@ import WOW from "wowjs";
 function ScrollImage() {
   const arrImages = [
     {
-      imageSrc:
-        "https://i.pinimg.com/736x/6c/ac/1f/6cac1f73fe73edbdea6fb9a01ce47d4b.jpg",
-      title: "Standee",
+      imageSrc: "https://i.ibb.co/fYJLNVsD/standee-60x160cm-1.jpg",
+      title: "Standee sale",
     },
     {
-      imageSrc:
-        "https://i.pinimg.com/736x/8a/01/69/8a0169721c009451fa53e15759c43f20.jpg",
-      title: "Standee",
+      imageSrc: "https://i.ibb.co/jZL6CXQw/standee-60x160cm-01.jpg",
+      title: "Standee du học",
     },
     {
-      imageSrc:
-        "https://i.pinimg.com/736x/28/7c/c9/287cc91803630a7530a21f1e4ad222aa.jpg",
-      title: "Standee",
+      imageSrc: "https://i.ibb.co/vxpmtB1d/standee-60x160cm-3.jpg",
+      title: "Standee tuyển nhân lực",
     },
     // Add more images as needed
   ];

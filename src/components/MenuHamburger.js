@@ -44,10 +44,6 @@ function MenuHamburger({ isOpen, setIsOpen }) {
           sub_link: "/danh-muc-in/in-bat-hiflex-tai-ha-noi",
         },
         {
-          sub_title: "In decal ôtô tại Hà Nội",
-          sub_link: "/danh-muc-in/in-decal-o-to-tai-ha-noi",
-        },
-        {
           sub_title: "In decal pp tại Hà Nội",
           sub_link: "/danh-muc-in/in-decal-pp-tai-ha-noi",
         },

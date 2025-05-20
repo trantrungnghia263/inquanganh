@@ -161,10 +161,6 @@ function Footer() {
       link: "/danh-muc-in/in-decal-pp-tai-ha-noi",
     },
     {
-      title: "In decal ô tô tại Hà Nội",
-      link: "/danh-muc-in/in-decal-o-to-tai-ha-noi",
-    },
-    {
       title: "In backlit tại Hà Nội",
       link: "/danh-muc-in/in-backlit-tai-ha-noi",
     },

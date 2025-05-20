@@ -74,11 +74,11 @@ function CategoriesDetail() {
                     <h3 className="categories-detail__heading text-lg text-red-700 uppercase pb-4">
                       {category.title}
                     </h3>
-                    <div className="categories-detail__image">
+                    <div className="categories-detail__image max-w-lg m-auto">
                       <img
                         src={category.imageUrl}
                         alt={category.title}
-                        className="object-cover w-full"
+                        className="object-cover"
                       />
                     </div>
                     <div

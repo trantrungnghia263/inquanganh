@@ -49,10 +49,6 @@ function Nav() {
           link: "/danh-muc-in/in-bang-ron-tai-ha-noi",
         },
         {
-          title: "In decal ô tô",
-          link: "/danh-muc-in/in-decal-o-to-tai-ha-noi",
-        },
-        {
           title: "In decal PP",
           link: "/danh-muc-in/in-decal-pp-tai-ha-noi",
         },
