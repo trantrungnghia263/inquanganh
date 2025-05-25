@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-
-// IMAGE
 import logo from "../assets/logo/Logo QA-01.png";
 
 function MenuHamburger({ isOpen, setIsOpen }) {
   const location = useLocation();
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(null); // main menu
+  const [activeSubChildIndex, setActiveSubChildIndex] = useState({}); // sub-child per sub-menu
 
   const menus = [
     { title: "Trang chủ", link: "/" },
@@ -18,6 +17,33 @@ function MenuHamburger({ isOpen, setIsOpen }) {
         {
           sub_title: "In tem nhãn tại Hà Nội",
           sub_link: "/danh-muc-in/in-tem-nhan-tai-ha-noi",
+          sub_child_menu: [
+            {
+              sub_child_title: "In tem vỡ bảo hành tại Hà Nội",
+              sub_child_link: "/danh-muc-in/in-tem-vo-bao-hanh-tai-ha-noi",
+            },
+            {
+              sub_child_title: "In tem decal giấy tại Hà Nội",
+              sub_child_link: "/danh-muc-in/in-tem-decal-giay-tai-ha-noi",
+            },
+            {
+              sub_child_title: "In tem 7 màu tại Hà Nội",
+              sub_child_link: "/danh-muc-in/in-tem-7-mau-tai-ha-noi",
+            },
+            {
+              sub_child_title: "In tem decal tráng kim tại Hà Nội",
+              sub_child_link: "/danh-muc-in/in-tem-decal-trang-kim-tai-ha-noi",
+            },
+            {
+              sub_child_title: "In tem decal nhựa chống nước tại Hà Nội",
+              sub_child_link:
+                "/danh-muc-in/in-tem-decal-nhua-chong-nuoc-tai-ha-noi",
+            },
+            {
+              sub_child_title: "In tem decal trong tại Hà Nội",
+              sub_child_link: "/danh-muc-in/in-tem-decal-trong-tai-ha-noi",
+            },
+          ],
         },
         {
           sub_title: "In voucher tại Hà Nội",
@@ -74,23 +100,28 @@ function MenuHamburger({ isOpen, setIsOpen }) {
   ];
 
   const toggleSubMenu = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
+    setActiveIndex((prev) => (prev === index ? null : index));
+  };
+
+  const toggleSubChildMenu = (parentIndex, subIndex) => {
+    setActiveSubChildIndex((prev) => ({
+      ...prev,
+      [parentIndex]: prev[parentIndex] === subIndex ? null : subIndex,
+    }));
   };
 
   return (
     <div
-      className={
-        "menu-hamburger fixed z-10 bg-gray-900 bg-opacity-25 inset-0 overflow-hidden transition-opacity duration-500 ease-in-out " +
-        (isOpen
+      className={`menu-hamburger fixed z-10 bg-gray-900 bg-opacity-25 inset-0 overflow-hidden transition-opacity duration-500 ease-in-out ${
+        isOpen
           ? "opacity-100 pointer-events-auto"
-          : "opacity-0 pointer-events-none")
-      }
+          : "opacity-0 pointer-events-none"
+      }`}
     >
       <div
-        className={
-          "menu-hamburger__inner w-4/5 md:w-3/5 h-full bg-white shadow-lg transform transition-transform duration-700 ease-in-out " +
-          (isOpen ? "translate-x-0" : "-translate-x-full")
-        }
+        className={`menu-hamburger__inner w-full md:w-3/5 h-full bg-white shadow-lg transform transition-transform duration-700 ease-in-out ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
       >
         <div className="menu-hamburger__content px-4">
           <div className="menu-hamburger__head flex items-center justify-between py-4">
@@ -102,11 +133,7 @@ function MenuHamburger({ isOpen, setIsOpen }) {
               onClick={() => setIsOpen(false)}
             >
               <svg
-                className="w-4 h-4 text-gray-500 dark:text-gray-500"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                className="w-4 h-4 text-gray-500"
                 fill="none"
                 viewBox="0 0 24 24"
               >
@@ -120,43 +147,45 @@ function MenuHamburger({ isOpen, setIsOpen }) {
               </svg>
             </div>
           </div>
+
           <ul className="menu-hamburger__list py-4">
             {menus.map((item, index) => (
               <li
-                id={item.title}
-                className="menu-hamburger__item border-t last:border-b"
                 key={index}
-                onClick={() => {
-                  if (!item.sub_menu) {
-                    setIsOpen(false);
-                  }
-                }}
+                className="menu-hamburger__item border-t last:border-b"
               >
                 <div className="flex justify-between items-center">
                   <Link
                     to={item.link}
+                    onClick={(e) => {
+                      if (item.sub_menu) {
+                        e.preventDefault();
+                        toggleSubMenu(index);
+                      } else {
+                        setIsOpen(false);
+                      }
+                    }}
                     className={`menu-hamburger__link block py-2.5 text-base font-semibold uppercase ${
                       location.pathname === item.link
                         ? "text-red-700"
                         : "text-gray-500"
                     }`}
-                    onClick={() => item.sub_menu && toggleSubMenu(index)}
                   >
                     {item.title}
                   </Link>
+
                   {item.sub_menu && (
                     <button
-                      className="accordion-toggle ml-2 focus:outline-none"
                       onClick={() => toggleSubMenu(index)}
+                      className="ml-2"
                     >
                       <svg
-                        className={`w-4 h-4 transition-transform duration-300 font-semibold ${
+                        className={`w-4 h-4 transition-transform duration-300 ${
                           activeIndex === index ? "rotate-180" : ""
                         }`}
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
                           strokeLinecap="round"
@@ -169,25 +198,81 @@ function MenuHamburger({ isOpen, setIsOpen }) {
                   )}
                 </div>
 
-                {/* Submenu */}
-                {item.sub_menu && (
-                  <ul
-                    className={`submenu pl-3 transition-all duration-500 ease-in-out overflow-y-auto max-h-[300px] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300 ${
-                      activeIndex === index ? "max-h-screen" : "max-h-0"
-                    }`}
-                  >
+                {/* Sub Menu */}
+                {item.sub_menu && activeIndex === index && (
+                  <ul className="submenu transition-all py-1 overflow-y-auto max-h-[300px] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300">
                     {item.sub_menu.map((subItem, subIndex) => (
                       <li
                         key={subIndex}
-                        className="menu-hamburger__sub-item first:pt-1 last:pb-1"
-                        onClick={() => setIsOpen(false)}
+                        className="menu-hamburger__sub-item py-2"
                       >
-                        <Link
-                          to={subItem.sub_link}
-                          className="block pb-2.5 text-sm text-gray-500 uppercase font-semibold"
-                        >
-                          {subItem.sub_title}
-                        </Link>
+                        <div className="flex justify-between items-center">
+                          <Link
+                            to={subItem.sub_link}
+                            onClick={(e) => {
+                              if (subItem.sub_child_menu) {
+                                e.preventDefault();
+                                toggleSubChildMenu(index, subIndex);
+                              } else {
+                                setIsOpen(false);
+                              }
+                            }}
+                            className="block text-sm text-gray-500 uppercase font-semibold"
+                          >
+                            {subItem.sub_title}
+                          </Link>
+
+                          {subItem.sub_child_menu && (
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                toggleSubChildMenu(index, subIndex);
+                              }}
+                              className="ml-2"
+                            >
+                              <svg
+                                className={`w-4 h-4 transition-transform duration-300 ${
+                                  activeSubChildIndex[index] === subIndex
+                                    ? "rotate-180"
+                                    : ""
+                                }`}
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth="2"
+                                  d="M19 9l-7 7-7-7"
+                                />
+                              </svg>
+                            </button>
+                          )}
+                        </div>
+
+                        {/* Sub-child menu */}
+                        {subItem.sub_child_menu &&
+                          activeSubChildIndex[index] === subIndex && (
+                            <ul className="submenu pt-2 pl-4">
+                              {subItem.sub_child_menu.map(
+                                (child, childIndex) => (
+                                  <li
+                                    key={childIndex}
+                                    onClick={() => setIsOpen(false)}
+                                    className="py-2"
+                                  >
+                                    <Link
+                                      to={child.sub_child_link}
+                                      className="block text-sm uppercase text-gray-500 font-semibold"
+                                    >
+                                      {child.sub_child_title}
+                                    </Link>
+                                  </li>
+                                )
+                              )}
+                            </ul>
+                          )}
                       </li>
                     ))}
                   </ul>

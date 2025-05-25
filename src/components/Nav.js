@@ -19,6 +19,33 @@ function Nav() {
         {
           title: "In tem nhãn tại Hà Nội",
           link: "/danh-muc-in/in-tem-nhan-tai-ha-noi",
+          sub_child_menu: [
+            {
+              sub_child_title: "In tem vỡ bảo hành tại Hà Nội",
+              sub_child_link: "/danh-muc-in/in-tem-vo-bao-hanh-tai-ha-noi",
+            },
+            {
+              sub_child_title: "In tem decal giấy tại Hà Nội",
+              sub_child_link: "/danh-muc-in/in-tem-decal-giay-tai-ha-noi",
+            },
+            {
+              sub_child_title: "In tem 7 màu tại Hà Nội",
+              sub_child_link: "/danh-muc-in/in-tem-7-mau-tai-ha-noi",
+            },
+            {
+              sub_child_title: "In tem decal tráng kim tại Hà Nội",
+              sub_child_link: "/danh-muc-in/in-tem-decal-trang-kim-tai-ha-noi",
+            },
+            {
+              sub_child_title: "In tem decal nhựa chống nước tại Hà Nội",
+              sub_child_link:
+                "/danh-muc-in/in-tem-decal-nhua-chong-nuoc-tai-ha-noi",
+            },
+            {
+              sub_child_title: "In tem decal trong tại Hà Nội",
+              sub_child_link: "/danh-muc-in/in-tem-decal-trong-tai-ha-noi",
+            },
+          ],
         },
         {
           title: "In voucher tại Hà Nội",
@@ -125,20 +152,54 @@ function Nav() {
 
             {/* Sub menu được tách riêng */}
             {item.sub_menu && (
-              <ul className="nav__sub-menu w-[550px] bg-red-700 absolute top-full left-0 z-10 opacity-0 translate-y-10 pointer-events-none transition duration-300 group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto  grid grid-cols-2">
+              <ul className="nav__sub-menu w-[550px] bg-red-700 absolute top-full left-0 z-10 opacity-0 translate-y-10 pointer-events-none transition duration-300 group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto grid grid-cols-2">
                 {item.sub_menu.map((sub, subIndex) => (
                   <li
-                    className={`nav__item transition duration-150 bg-red-700 hover:bg-red-800 ${
-                      location.pathname === sub.link ? "bg-red-800" : ""
-                    }`}
+                    className="relative group/nav transition duration-150 bg-red-700 hover:bg-red-800"
                     key={subIndex}
                   >
                     <Link
                       to={sub.link}
-                      className="nav__link block text-sm uppercase text-white px-4 py-2"
+                      className="nav__link block w-full text-sm uppercase text-white px-4 py-2 flex items-center justify-between"
                     >
                       {sub.title}
+                      {sub.sub_child_menu && sub.sub_child_menu.length > 0 && (
+                        <svg
+                          className="w-4 h-4 text-white transition duration-300 transform -rotate-90"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth={2}
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19 9l-7 7-7-7"
+                          />
+                        </svg>
+                      )}
                     </Link>
+
+                    {/* Hiển thị sub_child_menu bên phải */}
+                    {sub.sub_child_menu && sub.sub_child_menu.length > 0 && (
+                      <ul className="absolute left-full top-0 w-[300px] bg-red-800 z-20 opacity-0 pointer-events-none transition duration-300 group-hover/nav:opacity-100 group-hover/nav:pointer-events-auto shadow-2xs">
+                        {sub.sub_child_menu.map((subChild, subChildIndex) => (
+                          <li
+                            key={subChildIndex}
+                            className={`px-4 py-2 hover:bg-red-700 text-white uppercase text-sm ${
+                              location.pathname === subChild.sub_child_link
+                                ? "bg-red-700"
+                                : ""
+                            }`}
+                          >
+                            <Link to={subChild.sub_child_link}>
+                              {subChild.sub_child_title}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </li>
                 ))}
               </ul>
