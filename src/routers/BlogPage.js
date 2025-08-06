@@ -28,6 +28,7 @@ import "swiper/css/scrollbar";
 import AOS from "aos";
 
 // Calling WOW.js
+//@ts-ignore
 import WOW from "wowjs";
 
 function BlogPage() {

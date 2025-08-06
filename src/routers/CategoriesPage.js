@@ -15,6 +15,7 @@ import useDocumentTitle from "../hooks/useDocumentTitle";
 import { createSlug } from "../util/createSlug";
 
 //Calling WOWjs
+//@ts-ignore
 import WOW from "wowjs";
 
 function CategoriesPage() {
@@ -57,6 +58,7 @@ function CategoriesPage() {
   }, []);
 
   return (
+    //@ts-nocheck
     <div className="categories-page pt-4 pb-6 md:pt-6 md:pb-8 lg:py-10">
       <div className="container">
         <div className="row">

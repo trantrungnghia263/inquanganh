@@ -37,6 +37,10 @@ function NavSidebar() {
           sub_title: "In tem decal trong tại Hà Nội",
           sub_link: "/danh-muc-in/in-tem-decal-trong-tai-ha-noi",
         },
+        {
+          sub_title: "In tem phụ tại Hà Nội",
+          sub_link: "/danh-muc-in/in-tem-phu-tai-ha-noi",
+        },
       ],
     },
     {
@@ -60,8 +64,8 @@ function NavSidebar() {
       link: "/danh-muc-in/in-cardvisit-tai-ha-noi",
     },
     {
-      title: "In backlit tại Hà Nội",
-      link: "/danh-muc-in/in-backlit-tai-ha-noi",
+      title: "In backlit - backdrop tại Hà Nội",
+      link: "/danh-muc-in/in-backlit-backdrop-tai-ha-noi",
     },
     {
       title: "In lua - canvas tại Hà Nội",
@@ -70,10 +74,6 @@ function NavSidebar() {
     {
       title: "In standee tại Hà Nội",
       link: "/danh-muc-in/in-standee-tai-ha-noi",
-    },
-    {
-      title: "In backdrop tại Hà Nội",
-      link: "/danh-muc-in/in-backdrop-tai-ha-noi",
     },
   ];
 

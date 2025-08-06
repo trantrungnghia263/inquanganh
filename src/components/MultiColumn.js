@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 
 //Calling WOWjs
+//@ts-ignore
 import WOW from "wowjs";
 
 function MultiColumn() {

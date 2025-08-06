@@ -7,6 +7,7 @@ import AutoScrollImage from "./AutoScrollImage";
 import AOS from "aos";
 
 //Calling WOWjs
+//@ts-ignore
 import WOW from "wowjs";
 
 function ScrollImage() {

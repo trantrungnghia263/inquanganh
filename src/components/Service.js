@@ -1,24 +1,22 @@
 import React, { useEffect } from "react";
 
-//IMAGES
-import img1 from "../assets/banner/banner5.jpg";
-
 //AOS ANIMATION
 import AOS from "aos";
 
 //Calling WOWjs
+//@ts-ignore
 import WOW from "wowjs";
 
 function Service() {
   const services = [
     {
-      url: img1,
+      url: "https://printgo.vn/uploads/media/812773/dich-vu-in-an-quang-cao-1_1666693607.jpg",
       title: "DỊCH VỤ IN",
       description:
         "In Quang Anh cung cấp các dịch vụ in ấn bạt Hiflex, decal PP, decal ôtô, băng rôn, backlit, canvas ... Chúng tôi liên kết để tạo ra hệ thống máy móc, nhà xưởng đầy đủ và hiện đại nhằm cung cấp dịch vụ in ấn với chất lượng cao và giá thành cạnh tranh nhất tới khách hàng. Rất hy vọng nhận được sự hợp tác và đồng hành cùng Quý khách.",
     },
     {
-      url: "https://inbacviet.com.vn/wp-content/themes/lamvt-inbacviet/images/dich-vu-2.jpg",
+      url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghdWYs-fILjhyphenhyphenj4TwiQQk5oQaFp9ZekWnc6bJHc_rqNYVwufDq5jsrSj72qpZsgs4yKVLVnSQ1d-xCcDgCSz7fKY8RWPfLudwnQjO8k0Im3SdDJ51P_0BYEnH7oSOoC2is34BXhA_MygfNtW7yn-AJsweoF_Xu3KC23y1srSQZ8ys5ZPL5A8Gp9ZeFJpI/s16000-rw/in-decal-pp.webp",
       title: "DỊCH VỤ THIẾT KẾ",
       description:
         "Dịch vụ thiết kế đồ họa của chúng tôi là sự kết hợp tinh tế giữa sự sáng tạo và hiểu biết sâu sắc về nhu cầu của khách hàng. Chúng tôi cung cấp dịch vụ thiết kế từ những dự án nhỏ như: Thiết kế backlit, decal, banner, tranh canvas… đến các dự án lớn hơn như sách, hồ sơ năng lực, hệ thống nhận diện thương hiệu cho các công ty, tập đoàn trong cả nước. Chúng tôi cam kết cung cấp giải pháp thiết kế sáng tạo và tối ưu nhất cho khách hàng.",

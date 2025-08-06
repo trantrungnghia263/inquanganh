@@ -94,6 +94,7 @@ function CategoriesDetail() {
             )}
           </div>
         </div>
+
         <div className="categories-detail__bottom pt-4 border-t">
           <Tag />
         </div>

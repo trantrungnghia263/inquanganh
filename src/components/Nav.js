@@ -45,59 +45,67 @@ function Nav() {
               sub_child_title: "In tem decal trong tại Hà Nội",
               sub_child_link: "/danh-muc-in/in-tem-decal-trong-tai-ha-noi",
             },
+            {
+              sub_child_title: "In tem phụ tại Hà Nội",
+              sub_child_link: "/danh-muc-in/in-tem-phu-tai-ha-noi",
+            },
           ],
-        },
-        {
-          title: "In voucher tại Hà Nội",
-          link: "/danh-muc-in/in-voucher-tai-ha-noi",
-        },
-        {
-          title: "In phong bì tại Hà Nội",
-          link: "/danh-muc-in/in-phong-bi-tai-ha-noi",
-        },
-        {
-          title: "In giấy mời tại Hà Nội",
-          link: "/danh-muc-in/in-giay-moi-tai-ha-noi",
-        },
-        {
-          title: "In catalog tại Hà Nội",
-          link: "/danh-muc-in/in-catalog-tai-ha-noi",
-        },
-        {
-          title: "In cardvisit tại Hà Nội",
-          link: "/danh-muc-in/in-cardvisit-tai-ha-noi",
         },
         {
           title: "In bạt hiflex",
           link: "/danh-muc-in/in-bat-hiflex-tai-ha-noi",
         },
         {
-          title: "In băng rôn",
-          link: "/danh-muc-in/in-bang-ron-tai-ha-noi",
-        },
-        {
-          title: "In decal PP",
-          link: "/danh-muc-in/in-decal-pp-tai-ha-noi",
-        },
-        {
-          title: "In backlit",
-          link: "/danh-muc-in/in-backlit-tai-ha-noi",
-        },
-        {
-          title: "In lụa canvas",
-          link: "/danh-muc-in/in-lua-canvas-tai-ha-noi",
+          title: "In voucher tại Hà Nội",
+          link: "/danh-muc-in/in-voucher-tai-ha-noi",
         },
         {
           title: "In hastag cầm tay",
           link: "/danh-muc-in/in-hastag-cam-tay-tai-ha-noi",
         },
         {
+          title: "In cardvisit tại Hà Nội",
+          link: "/danh-muc-in/in-cardvisit-tai-ha-noi",
+        },
+        {
+          title: "In backlit - backrop",
+          link: "/danh-muc-in/in-backlit-backdrop-tai-ha-noi",
+        },
+        {
+          title: "In phong bì tại Hà Nội",
+          link: "/danh-muc-in/in-phong-bi-tai-ha-noi",
+        },
+        {
           title: "In standee",
           link: "/danh-muc-in/in-standee-tai-ha-noi",
         },
         {
-          title: "In backdrop",
-          link: "/danh-muc-in/in-backdrop-tai-ha-noi",
+          title: "In giấy mời tại Hà Nội",
+          link: "/danh-muc-in/in-giay-moi-tai-ha-noi",
+        },
+        {
+          title: "In decal PP",
+          link: "/danh-muc-in/in-decal-pp-tai-ha-noi",
+        },
+        {
+          title: "In sticker trang trí",
+          link: "/danh-muc-in/in-sticker-trang-tri-tai-ha-noi",
+        },
+        {
+          title: "In băng rôn",
+          link: "/danh-muc-in/in-bang-ron-tai-ha-noi",
+        },
+        {
+          title: "In menu",
+          link: "/danh-muc-in/in-menu-gia-re-tai-ha-noi",
+        },
+        {
+          title: "In lụa canvas",
+          link: "/danh-muc-in/in-lua-canvas-tai-ha-noi",
+        },
+        {
+          title: "In catalog tại Hà Nội",
+          link: "/danh-muc-in/in-catalog-tai-ha-noi",
         },
       ],
     },

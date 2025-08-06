@@ -11,6 +11,7 @@ import { createSlug } from "../util/createSlug";
 import AOS from "aos";
 
 //Calling WOWjs
+//@ts-ignore
 import WOW from "wowjs";
 
 function Categories() {

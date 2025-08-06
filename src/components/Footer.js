@@ -149,6 +149,30 @@ function Footer() {
 
   const categories = [
     {
+      title: "In tem nhãn tại Hà Nội",
+      link: "/danh-muc-in/in-tem-nhan-tai-ha-noi",
+    },
+    {
+      title: "In voucher tại Hà Nội",
+      link: "/danh-muc-in/in-voucher-tai-ha-noi",
+    },
+    {
+      title: "In phong bì tại Hà Nội",
+      link: "/danh-muc-in/in-phong-bi-tai-ha-noi",
+    },
+    {
+      title: "In giấy mời tại Hà Nội",
+      link: "/danh-muc-in/in-giay-moi-tai-ha-noi",
+    },
+    {
+      title: "In catalog tại Hà Nội",
+      link: "/danh-muc-in/in-catalog-tai-ha-noi",
+    },
+    {
+      title: "In cardvisit tại Hà Nội",
+      link: "/danh-muc-in/in-cardvisit-tai-ha-noi",
+    },
+    {
       title: "In bạt Hiflex tại Hà Nội",
       link: "/danh-muc-in/in-bat-hiflex-tai-ha-noi",
     },
@@ -161,12 +185,8 @@ function Footer() {
       link: "/danh-muc-in/in-decal-pp-tai-ha-noi",
     },
     {
-      title: "In backlit tại Hà Nội",
-      link: "/danh-muc-in/in-backlit-tai-ha-noi",
-    },
-    {
-      title: "In backdrop tại Hà Nội",
-      link: "/danh-muc-in/in-backdrop-tai-ha-noi",
+      title: "In backlit - backdrop tại Hà Nội",
+      link: "/danh-muc-in/in-backlit-backdrop-tai-ha-noi",
     },
     {
       title: "In băng rôn tại Hà Nội",
