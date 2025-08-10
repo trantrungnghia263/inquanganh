@@ -13,7 +13,7 @@ function Service() {
       url: "https://printgo.vn/uploads/media/812773/dich-vu-in-an-quang-cao-1_1666693607.jpg",
       title: "DỊCH VỤ IN",
       description:
-        "In Quang Anh cung cấp các dịch vụ in ấn bạt Hiflex, decal PP, decal ôtô, băng rôn, backlit, canvas ... Chúng tôi liên kết để tạo ra hệ thống máy móc, nhà xưởng đầy đủ và hiện đại nhằm cung cấp dịch vụ in ấn với chất lượng cao và giá thành cạnh tranh nhất tới khách hàng. Rất hy vọng nhận được sự hợp tác và đồng hành cùng Quý khách.",
+        "In Quang Anh cung cấp các dịch vụ in ấn như: in tem nhãn, voucher, cardvist, phong bì, giấy mời, sticker, menu, catalog, bạt Hiflex, decal PP, decal ôtô, băng rôn, backlit, canvas ... Chúng tôi liên kết để tạo ra hệ thống máy móc, nhà xưởng đầy đủ và hiện đại nhằm cung cấp dịch vụ in ấn với chất lượng cao và giá thành cạnh tranh nhất tới khách hàng. Rất hy vọng nhận được sự hợp tác và đồng hành cùng Quý khách.",
     },
     {
       url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghdWYs-fILjhyphenhyphenj4TwiQQk5oQaFp9ZekWnc6bJHc_rqNYVwufDq5jsrSj72qpZsgs4yKVLVnSQ1d-xCcDgCSz7fKY8RWPfLudwnQjO8k0Im3SdDJ51P_0BYEnH7oSOoC2is34BXhA_MygfNtW7yn-AJsweoF_Xu3KC23y1srSQZ8ys5ZPL5A8Gp9ZeFJpI/s16000-rw/in-decal-pp.webp",

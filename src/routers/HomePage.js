@@ -7,7 +7,7 @@ import HeadingSection from "../components/HeadingSection";
 import Service from "../components/Service";
 import Categories from "../components/Categories";
 import BlogPost from "../components/BlogPost";
-import ScrollImage from "../components/ScrollImage";
+// import ScrollImage from "../components/ScrollImage";
 
 //HOOKS
 import useDocumentTitle from "../hooks/useDocumentTitle";
@@ -49,7 +49,7 @@ function HomePage() {
         <Categories />
       </div>
       {/* example design */}
-      <div className="home-page__blog-post">
+      {/* <div className="home-page__blog-post">
         <div className="home-page__heading">
           <HeadingSection
             icon={icons[0]}
@@ -58,7 +58,7 @@ function HomePage() {
           />
         </div>
         <ScrollImage />
-      </div>
+      </div> */}
       {/* blog post */}
       <div className="home-page__blog-post">
         <div className="home-page__heading">
@@ -70,10 +70,6 @@ function HomePage() {
         </div>
         <BlogPost />
       </div>
-      {/* multi column */}
-      <div className="home-page__multi-column">
-        <MultiColumn />
-      </div>
       {/* service */}
       <div className="home-page__service">
         <div className="home-page__heading">
@@ -84,6 +80,10 @@ function HomePage() {
           />
         </div>
         <Service />
+      </div>
+      {/* multi column */}
+      <div className="home-page__multi-column">
+        <MultiColumn />
       </div>
     </div>
   );

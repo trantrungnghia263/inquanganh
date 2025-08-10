@@ -88,8 +88,8 @@ function Nav() {
           link: "/danh-muc-in/in-decal-pp-tai-ha-noi",
         },
         {
-          title: "In sticker trang trí",
-          link: "/danh-muc-in/in-sticker-trang-tri-tai-ha-noi",
+          title: "In sticker trang trí (Wobbler)",
+          link: "/danh-muc-in/in-sticker-trang-tri-wobbler-tai-ha-noi",
         },
         {
           title: "In băng rôn",
