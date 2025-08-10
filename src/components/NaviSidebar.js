@@ -98,7 +98,9 @@ function NavSidebar() {
                   className={`nav-sidebar__link flex items-center justify-between cursor-pointer`}
                   onClick={() => (hasSubNav ? toggleSubNav(index) : null)}
                 >
-                  <Link to={item.link}>{item.title}</Link>
+                  <Link to={item.link} aria-label={item.title}>
+                    {item.title}
+                  </Link>
                   {hasSubNav && (
                     <svg
                       className={`w-4 h-4 text-slate-700 transition duration-300 transform ${
@@ -126,7 +128,12 @@ function NavSidebar() {
                         className="transition duration-300 px-4 py-2 text-sm text-slate-700 uppercase hover:bg-white"
                         key={sub_index}
                       >
-                        <Link to={sub_item.sub_link}>{sub_item.sub_title}</Link>
+                        <Link
+                          to={sub_item.sub_link}
+                          aria-label={sub_item.sub_title}
+                        >
+                          {sub_item.sub_title}
+                        </Link>
                       </li>
                     ))}
                   </ul>

@@ -125,8 +125,18 @@ function MenuHamburger({ isOpen, setIsOpen }) {
       >
         <div className="menu-hamburger__content px-4">
           <div className="menu-hamburger__head flex items-center justify-between py-4">
-            <Link to="/" className="menu-hamburger__logo block">
-              <img src={logo} alt="Logo" className="h-10" />
+            <Link
+              to="/"
+              className="menu-hamburger__logo block"
+              aria-label="Logo"
+            >
+              <img
+                src={logo}
+                alt="Logo"
+                className="h-10"
+                width="auto"
+                height="auto"
+              />
             </Link>
             <div
               className="menu-hamburger__close w-7 h-7 border flex items-center justify-center"
@@ -178,6 +188,7 @@ function MenuHamburger({ isOpen, setIsOpen }) {
                     <button
                       onClick={() => toggleSubMenu(index)}
                       className="ml-2"
+                      aria-label="Button"
                     >
                       <svg
                         className={`w-4 h-4 transition-transform duration-300 ${
@@ -229,6 +240,7 @@ function MenuHamburger({ isOpen, setIsOpen }) {
                                 toggleSubChildMenu(index, subIndex);
                               }}
                               className="ml-2"
+                              aria-label="Button"
                             >
                               <svg
                                 className={`w-4 h-4 transition-transform duration-300 ${

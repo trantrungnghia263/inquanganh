@@ -34,8 +34,14 @@ function Header({ onSearch }) {
       <div className="header__top py-3 hidden lg:block">
         <div className="container">
           <div className="flex justify-between items-center">
-            <Link to="/" className="header__logo">
-              <img src={logo} alt="" className="h-16" />
+            <Link to="/" className="header__logo" aria-label="Logo">
+              <img
+                src={logo}
+                alt=""
+                className="h-16"
+                width="auto"
+                height="auto"
+              />
             </Link>
             <ul className="header__info hidden gap-2.5 items-center xl:flex">
               <li className="flex items-center gap-1 text-base text-red-700 font-semibold">
@@ -118,7 +124,13 @@ function Header({ onSearch }) {
               to="/"
               className="header__logo flex items-center justify-center"
             >
-              <img src={logo} alt="Logo" className="h-10" />
+              <img
+                src={logo}
+                alt="Logo"
+                className="h-10"
+                width="auto"
+                height="auto"
+              />
             </Link>
             <div
               className="header__toggle w-7 h-7 border flex items-center justify-center"

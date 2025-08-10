@@ -201,7 +201,10 @@ function Nav() {
                                 : ""
                             }`}
                           >
-                            <Link to={subChild.sub_child_link}>
+                            <Link
+                              to={subChild.sub_child_link}
+                              aria-label={subChild.sub_child_title}
+                            >
                               {subChild.sub_child_title}
                             </Link>
                           </li>
