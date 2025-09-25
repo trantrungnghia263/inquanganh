@@ -225,7 +225,7 @@ function PolicyPage() {
        6.Phương tiện và công cụ để người dùng tiếp cận và chỉnh sửa dữ liệu cá nhân của mình
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      <span class="text-red-600 italic">inquanganh.vn</span> không thu thập thông tin khách hàng qua trang web, thông tin cá nhân khách hàng được thực hiện thu thập qua email liên hệ đặt mua sản phẩm, dịch vụ gửi về hộp mail của chúng tôi: Hai.inbacviet@gmail.com hoặc số điện thoại liên hệ đặt mua sản phẩm gọi về 094.6666.395
+      <span class="text-red-600 italic">inquanganh.vn</span> không thu thập thông tin khách hàng qua trang web, thông tin cá nhân khách hàng được thực hiện thu thập qua email liên hệ đặt mua sản phẩm, dịch vụ gửi về hộp mail của chúng tôi quanganhprinting@gmail.com hoặc số điện thoại liên hệ đặt mua sản phẩm gọi về 094.6666.395
       </p>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
       Bạn có thể liên hệ địa chỉ email cùng số điện thoại trên để yêu cầu <span class="text-red-600 italic">inquanganh.vn</span> chỉnh sửa dữ liệu cá nhân của mình.
