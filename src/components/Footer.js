@@ -29,37 +29,37 @@ function Footer() {
   };
 
   const info = [
-    {
-      id: 1,
-      icon: (
-        <svg
-          className="w-6 h-6 text-gray-800 text-white"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          fill="none"
-          viewBox="0 0 24 24"
-        >
-          <path
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
-          />
-          <path
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.127.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z"
-          />
-        </svg>
-      ),
-      title:
-        "Địa chỉ trụ sở chính: Số 50A, ngõ 345 đường Khương Trung, Phường Khương Đình, TP Hà Nội",
-    },
+    // {
+    //   id: 1,
+    //   icon: (
+    //     <svg
+    //       className="w-6 h-6 text-gray-800 text-white"
+    //       aria-hidden="true"
+    //       xmlns="http://www.w3.org/2000/svg"
+    //       width="24"
+    //       height="24"
+    //       fill="none"
+    //       viewBox="0 0 24 24"
+    //     >
+    //       <path
+    //         stroke="currentColor"
+    //         strokeLinecap="round"
+    //         strokeLinejoin="round"
+    //         strokeWidth="2"
+    //         d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+    //       />
+    //       <path
+    //         stroke="currentColor"
+    //         strokeLinecap="round"
+    //         strokeLinejoin="round"
+    //         strokeWidth="2"
+    //         d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.127.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z"
+    //       />
+    //     </svg>
+    //   ),
+    //   title:
+    //     "Địa chỉ trụ sở chính:  Số 50A, ngõ 345 đường Khương Trung, Phường Khương Đình, TP Hà Nội",
+    // },
     {
       id: 2,
       icon: (
@@ -89,7 +89,7 @@ function Footer() {
         </svg>
       ),
       title:
-        "Địa chỉ kinh doanh: Nhà 7A, ngách 18, ngõ 181 Xuân Thủy, phường Cầu Giấy, TP Hà Nội",
+        "Địa chỉ kinh doanh: Số 2 ngách 1 ngõ 205 đường Phú Diễn, Phường Phú DIễn, Hà Nội, Việt Nam",
     },
     {
       id: 3,
@@ -109,7 +109,7 @@ function Footer() {
           />
         </svg>
       ),
-      title: "MST: 0107454528 - cấp ngày 31 tháng 05 năm 2016",
+      title: "MST: 0111 656 044 cấp ngày 13 tháng 10 năm 2026",
     },
     {
       id: 4,
@@ -140,7 +140,7 @@ function Footer() {
         </svg>
       ),
       title:
-        "Nơi cấp: Sở Kế hoạch và Đầu tư Thành phố Hà Nội - Phòng Đăng ký Kinh doanh",
+        "Nơi cấp: Sở tài chính thành phố Hà Nội - Phòng đăng ký kinh doanh và tài chính doanh nghiệp",
     },
     {
       id: 5,
@@ -299,7 +299,7 @@ function Footer() {
                 className="footer__title flex items-center justify-between uppercase text-lg text-white py-4 md:pt-0 pb-2 border-b border-solid"
                 onClick={() => toggleSection("info")}
               >
-                <p>CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ NGUYÊN BẢO</p>
+                <p>CÔNG TY TNHH TMDV TRÂN BẢO</p>
                 <div className="flex items-center justify-center md:hidden">
                   <svg
                     className={`w-4 h-4 transition-transform font-semibold ${
